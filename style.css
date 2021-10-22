@@ -1,0 +1,41 @@
+/* Cores Default: var(--main-bg-color); */
+:root {
+    --dark: #2c2a2a;
+    --purple: #7E459B;
+    --white: #FFFFFF;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+/* HARD RESET */
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+    box-sizing: border-box; 
+    font-family: 'Quicksand', sans-serif;
+}
+a {text-decoration: none;}
+ul {list-style: none;}
+img {max-width: 100%;}
+
+body {
+    background-color: var(--dark);
+}
+
+header {
+    background-color: var(--purple);
+    color: var(--white);
+    padding: 40px 5%
+}
+
+header a h1 {
+    color: var(--white);
+    font-size: 2.5rem;
+}
+header h2 {
+    color: var(--white);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
